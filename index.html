@@ -1,0 +1,227 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>唐浩个人简历</title>
+    <link rel="stylesheet" href="static/css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/remodal/1.1.0/remodal.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/remodal/1.1.0/remodal-default-theme.min.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/remodal/1.1.0/remodal.min.js"></script>
+    <script src="static/js/script.js"></script>
+</head>
+
+<body>
+    <div class="container" id="cv">
+        <div class="side">
+            <div class="me">
+                <div class="portrait"></div>
+                <div class="remodal remodal-img" data-remodal-id="portrait-modal">
+                    <h3>请输入图片URL地址：</h3>
+                    <br/>
+                    <input type="text" id="avatar-url">
+                    <button data-remodal-action="confirm" class="remodal-confirm">确定</button>
+                </div>
+                <h1 id="username" >唐浩</h1>
+                <h4 id="persona-tag" >深度学习/Web开发/Linux/大数据</h4>
+            </div>
+            <div class="profile info-unit">
+                <h2 class="info-header"><i class="iconfont icon-person"></i> <span class="info-title">基本信息</span></h2>
+                <hr>
+                <ul class="info-list">
+                    <li>
+                        <label class="left-label">姓名</label><span class="label-value">唐浩</span></li>
+                    <li>
+                        <label class="left-label">学历</label><span class="label-value">硕士(在读)</span></li>
+                    <li>
+                        <label class="left-label">毕业院校</label><span class="label-value">中科院计算所</span></li>
+                    <li>
+                        <label class="left-label">毕业时间</label><span class="label-value">2020.6</span></li>
+		    <li>
+                        <label class="left-label">政治面貌</label><span class="label-value">中共党员</span></li>
+		     <li>
+                        <label class="left-label">兴趣爱好</label><span class="label-value">听歌旅游、写博客等</span></li>
+                </ul>
+            </div>
+            <div class="contact info-unit">
+                <h2 class="info-header"><i class="iconfont icon-call"></i> <span class="info-title">联系方式</span></h2>
+                <hr>
+                <ul class="info-list">
+                    <li>
+                        <label class="left-label">手机</label><span class="label-value">16619705010</span></li>
+                    <li>
+                        <label class="left-label">邮箱</label><span class="label-value">goodcandy10@gmail.com</span></li>
+                    <li>
+                        <label class="left-label">Github</label><span class="label-value" style="white-space: nowrap;">https://github.com/ABadCandy</span></li>
+                </ul>
+            </div>
+            <div class="skill info-unit">
+                <h2 class="info-header"><i class="iconfont icon-star"></i> <span class="info-title">编程语言</span></h2>
+                <hr>
+                <ul class="progress-list">
+		    <li>
+                        <label class="left-label">Python</label><span class="label-value">熟练</span>
+                    </li>
+                    <li>
+                        <label class="left-label">C/C++</label><span class="label-value">较熟悉</span>
+                    </li>
+                    <li>
+                        <label class="left-label">java</label><span class="label-value">一般</span>
+                    </li>
+                    <li>
+                        <label class="left-label">matlab</label><span class="label-value">一般</span>
+                    </li>
+                </ul>
+            </div>
+            <div class="stack info-unit">
+                <h2 class="info-header"><i class="iconfont icon-build"></i> <span class="info-title">技术栈</span></h2>
+                <hr>
+                <ul class="stack-list">
+                    <li>
+                        <label class="left-label">前端</label><span class="label-value">json、XML、git</span></li>
+                    </li>
+                    <li>
+                        <label class="left-label">后端</label><span class="label-value">MySQL、docker、Caffe、Keras、Pytorch</span></li>
+                    </li>
+                    <li>
+                        <label class="left-label">其它</label><span class="label-value">Github、Markdown、Jupyter、Xshell、Dreamwaver等</span></li>
+                    </li>
+                </ul>
+            </div>
+
+            <div class="code info-unit">
+                <h2 class="info-header"><i class="iconfont icon-weixin"></i> <span class="info-title">个人微信</span></h2>
+                <hr>
+                <div class="weixin">
+                    <img src="static/image/weixin.png" alt="">
+
+                </div>
+            </div>
+            <div class="remodal remodal-img" data-remodal-id="weixin-modal">
+                <h3>请输入图片URL地址：</h3>
+                <br/>
+                <input type="text" id="weixin-url">
+                <button data-remodal-action="confirm" class="remodal-confirm">确定</button>
+            </div>
+        </div>
+        <div class="main">
+            <div class="education info-unit right-list">
+                <h2 class="info-header"><i class="iconfont icon-education"></i> <span class="info-title">教育经历</span></h2>
+                <hr>
+                <ul class="experience-list">
+                    <li>
+                        <h3>中国科学院计算技术研究所 - （研究生在读）2017.9-2020.6</h3>
+                        <p>
+                            1. 研一参加集中教学，学习了算法、网络、大数据和体系结构等，各科成绩均80+，获得了国科大学业一等奖学金。在此期间，还与首都医科大学合作研究了深度学习在阿尔兹海默症病情诊断中的应用，
+                            相关文章《A Fast and Accurate 3D Finetuning Convolutional Neural Network for Alzheimer's Disease Diagnosis》已收录在International CCF Conference on Artificial Intelligence。<br>
+                            2. 研二阶段，参与到了和大气物理所合作的气候预报项目中，主要将深度学习与传统模式预报相结合，利用时空序列预测模型对未来中短期空气中污染物浓度进行准确预报。期间获得了计算所虑得奖学金。
+                        </p>
+                    </li>
+		   <li>
+                        <h3>中国地质大学 (北京) - 计算机科学与技术（本科）2013.9-2017.6</h3>
+                        <p>
+                           1. 本科期间，学习了C/C++/java等编程语言和计算机组成原理、OS、算法、数据结构等课程，专业排名3/62。<br>
+                           2. 获得过“三好学生”称号、国家奖学金和美国大学生数学建模竞赛二等奖等荣誉。<br>
+                           3. 大四成功保研中科院计算所，期间在北京大学分子医学研究所实习。
+                        </p>
+                    </li>
+                </ul>
+            </div>
+            <div class="work info-unit right-list">
+                <h2 class="info-header"><i class="iconfont icon-work"></i> <span class="info-title">实习/比赛经历</span></h2>
+                <hr>
+                <ul class="experience-list">
+                    <li>
+                        <h3 contenteditable="true">
+			2016.10-2017.8<br>
+			北京大学 | 分子医学研究所 | 医学图像处理<br>
+			</h3>
+                        <p contenteditable="true">
+			<b font-size="small">工作描述:</b><br>
+			1. 对电镜图像进行预处理，如降噪、增强对比度、数据扩增等，之后送入网络训练<br>
+			2. 利用Caffe框架自定义搭建多路FCN网络，并与传统图像检测算法比较二者精度<br>
+            3. 在 Protein & Cell 合作发表了文章《A unified deeplearning network to accurately segment insulin granules of different animal models imaged under different electron microscopy methodologies》。
+                        </p>
+                    </li>
+                    <li>
+			<h3 contenteditable="true">
+                        2017.6-2017.8<br>
+                        阿里天池肺结节检测大赛<br>
+                        </h3>
+                       <p contenteditable="true">
+                        <b font-size="small">工作描述:</b><br>
+                        1. 与北大博士学姐参加了阿里天池肺结节检测大赛并成功进入复赛， 最终排名 20/2687.<br>
+                        2. 本人主要负责CT图像数据预处理和改进的目标检测模型Faster-RCNN在Inter-Caffe中的部署<br>
+                        </p>
+                    </li>
+                </ul class="experience-list">
+            </div>
+            <div class="project info-unit right-list">
+                <h2 class="info-header"><i class="iconfont icon-project"></i> <span class="info-title">项目经验</span></h2>
+                <hr>
+                <ul class="experience-list">
+                    <li>
+                        <h3>深度学习在阿尔兹海默症病情诊断中的应用 | 2017.9-2018.6</h3>
+                        <p>
+                            <b font-size="small">项目描述：</b><br>
+				与首都医科大学合作研究了利用深度学习对阿尔兹海默症病人sMRI图像进行病情诊断分类，实验数据收集整理于ADNI数据库，实验结果相较传统机器学习算法有较大改善。<br>
+			    <b font-size="small">责任描述：</b><br>
+				1. sMRI图像预处理，深度神经网络模型搭建、训练与调优。<br>
+				2. 将项目代码封装成Docker镜像，并完成论文<br>
+			    <b font-size="small">项目效果：</b><br>
+				最终分类精度有所提升且达到了首医老师的要求，相关论文已发表。<br>
+                        </p>
+                    </li>
+                    <li>
+                        <h3>深度学习在时空序列预测中的应用 | 2018.9-2019.6</h3>
+                        <p>
+                            <b font-size="small">项目描述：</b><br>
+				研二回所参与到了和大气物理所合作的气候预报项目中，鉴于传统模式预报方法速度慢、长期预报不准，
+                遂尝试用深度学习方法对时空序列图像建模，搭建端到端模型快速准确地预测空气中污染物浓度<br>
+			    <b font-size="small">责任描述：</b><br>
+				1. 处理.grd格式的污染物和气象数据，完成图像的预处理工作<br>
+				2. 独自完成XGBoost、ARIMA、LSTM、TCN以及ConvLSTM模型的搭建与训练。<br>
+			    <b font-size="small">项目效果：</b><br>
+				比较了不同时间序列分析算法在气象预报中的效果，并着重于改善ConvLSTM模型在时空序列图像中的应用<br>
+                        </p>
+			</li>
+                </ul>
+            </div>
+	<!-- 根据自己的情况选择加入下面的内容与否
+            <div class="trophy info-unit">
+                <h2 class="info-header"><i class="iconfont icon-trophy"></i> <span class="info-title">奖项与证书</span></h2>
+                <hr>
+                <ul class="experience-list">
+                    <li>
+                        <h3>小学生作文二等奖</h3>
+                        <p>
+                            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam。
+                        </p>
+                    </li> 
+                    <li>
+                        <h3>曾获统一冰红茶“再来一瓶”奖</h3>
+                        <p>
+                            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam。
+                        </p>
+                    </li> 
+                    <li>
+                        <h3>这一行也是为了凑版面</h3>
+                        <p>
+                            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam。
+                        </p>
+                    </li>                     
+            </div>
+	-->
+            <div class="aboutme info-unit right-paragraph">
+                <h2 class="info-header"><i class="iconfont icon-flower"></i> <span class="info-title">自我评价</span></h2>
+                <hr>
+                <p>
+                    看完就是我的人了。
+                </p>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
