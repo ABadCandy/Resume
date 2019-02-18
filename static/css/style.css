@@ -188,18 +188,23 @@ progress::-moz-progress-value {
 }
 
 .portrait {
+    overflow: hidden;
     margin: 0 auto;
     margin-top:20px;
     margin-bottom: 10px;
-    background-image:url('../image/pic.png');
-    background-size: 120%;
-    background-position:center;
+    -background-image:url(../image/pic.png);
+    -background-size: 120%;
+    -background-position:center;
     border-radius:50%;
     border:5px solid #607d8b;
     width:160px;
     height:160px;
 }
-
+.portrait img{
+    width:100%;
+    position: relative;
+    top: -30px;
+}
 
 .container {
     position: relative;
